@@ -1,6 +1,7 @@
 ;;; monokai-theme.el --- A fruity color theme for Emacs.
 
-;; Copyright (C) 2011-2013
+;; Copyright (C) 2011-2013 Kelvin Smith
+;; Copyright (C) 2015 Peter Hillerström <peter.hillerstrom@gmail.com>
 
 ;; Author: Kelvin Smith <oneKelvinSmith@gmail.com>
 ;; URL: http://github.com/oneKelvinSmith/monokai-emacs
@@ -127,11 +128,11 @@ Also affects 'linum-mode' background."
        (gray-l                   "#6b6b6b")
        ;; Adaptive colors
        (monokai-fg               "#F8F8F2")
-       (monokai-bg               "#272822")
-       (monokai-hl-line          "#3E3D31")
-       (monokai-hl               "#49483E")
+       (monokai-bg               "#222627")
+       (monokai-hl-line          "#313D3E")
+       (monokai-hl               "#4E5959")
        (monokai-emph             "#F8F8F0")
-       (monokai-comments         "#75715E")
+       (monokai-comments         "#71756E")
        ;; Adaptive higher/lower contrast accented colors
        (monokai-fg-hc            "#141414")
        (monokai-fg-lc            "#171A0B")
@@ -206,11 +207,11 @@ Also affects 'linum-mode' background."
        (terminal-gray-l                   "#6c6c6c")
        ;; Adaptive colors
        (terminal-monokai-fg               "#F5F5F5")
-       (terminal-monokai-bg               "#1B1E1C")
+       (terminal-monokai-bg               "#1B1C1E")
        (terminal-monokai-hl-line          "#212121")
        (terminal-monokai-hl               "#303030")
        (terminal-monokai-emph             "#FFFAFA")
-       (terminal-monokai-comments         "#8B8878")
+       (terminal-monokai-comments         "#8B8B87")
        ;; Adaptive higher/lower contrast accented colors
        (terminal-monokai-fg-hc            "#171A0B")
        (terminal-monokai-fg-lc            "#141414")
